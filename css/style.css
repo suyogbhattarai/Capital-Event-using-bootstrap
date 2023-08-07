@@ -1,0 +1,132 @@
+.top {
+  background-color: #e31f26;
+  color: #fff;
+  padding: 20px;
+}
+.top .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top .gap {
+  gap: 20px;
+}
+
+.header .logo {
+  width: 250px;
+}
+
+.banner {
+  margin: 20px 0px;
+}
+.banner .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .banner .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.banner .ban {
+  width: 35%;
+}
+@media (max-width: 991px) {
+  .banner .ban {
+    width: 100%;
+  }
+}
+.banner .ban .ban-img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .banner .ban .ban-img {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.ban-content {
+  width: 65%;
+}
+@media (max-width: 991px) {
+  .ban-content {
+    width: 100%;
+  }
+}
+.ban-content .btn {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.ban-content h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.winner-list {
+  margin: 50px 0px;
+}
+.winner-list h2 {
+  padding-bottom: 20px;
+  color: #828C96;
+}
+.winner-list .row .position-absolute {
+  color: white;
+  text-align: center;
+}
+.winner-list .row .winner-list-right {
+  background-color: #0f6a53;
+  padding: 20px;
+  padding-bottom: 50px;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+@media (max-width: 991px) {
+  .winner-list .row .winner-list-right {
+    margin-top: 70px;
+    margin-bottom: 0px;
+  }
+}
+.winner-list .row .winner-list-right h2 {
+  color: white;
+}
+.winner-list .row .winner-list-right ul {
+  list-style: circle;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+.winner-list .row .winner-list-right ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #082032;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .footer {
+    margin-top: 0px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+}/*# sourceMappingURL=style.css.map */
